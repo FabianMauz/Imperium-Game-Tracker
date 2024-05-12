@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6f7a8b39e14588b49a1227f368f280c8
+guid: fbaa76cb3c77c594ebb7917d96ae576a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2594866895887592128
-    second: Star-Silver_0
+      213: -4032691057519389007
+    second: 16x200-divider_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Star-Silver_0
+      name: 16x200-divider_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 4
-        width: 84
-        height: 85
+        x: 0
+        y: 0
+        width: 16
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0caecc091b1d20420800000000000000
-      internalID: 2594866895887592128
+      spriteID: 1b699ab69d00908c0800000000000000
+      internalID: -4032691057519389007
       vertices: []
       indices: 
       edges: []
@@ -156,8 +156,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Star-Silver_0: 2594866895887592128
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
