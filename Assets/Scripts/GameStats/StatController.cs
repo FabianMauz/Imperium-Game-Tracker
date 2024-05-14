@@ -1,3 +1,4 @@
+using GameStats.Persistance;
 using System.Collections.Generic;
 using UnityEngine;
 namespace GameStats {
@@ -8,6 +9,8 @@ namespace GameStats {
         public GameChoice automaGameChoice { private set; get; } = GameChoice.CLASSIC;
         private string currentMatchIdentificator="XX-XX";
 
+        private PersistApi persistor = new PlayerPrefPersist();
+
         private Dictionary<string, int> persistance = new Dictionary<string, int>();
 
         public void setCurrentMatchIdentificator(string identificator) {
@@ -15,19 +18,11 @@ namespace GameStats {
         }
 
         public void setResultOfMatch(int difficulty) {
-            if (!persistance.ContainsKey(currentMatchIdentificator)){
-                persistance.Add(currentMatchIdentificator, difficulty);
-            }else {
-                persistance[currentMatchIdentificator] = difficulty;
-            }
+            persistor.saveResultOfMatch(currentMatchIdentificator, difficulty);
         }
 
         public int getResultOfMatch(string matchIdentificator) {
-            if (persistance.ContainsKey(matchIdentificator)) {
-                return persistance[matchIdentificator];
-            }else {
-                return 0;
-            }
+            return persistor.loadResultOfMatch(matchIdentificator);
         }
 
         private void Awake() {
