@@ -15,6 +15,9 @@ namespace GameStats{
                 if(this.transform.localScale.x < 1) {
                     Vector3 newScale = this.transform.localScale;
                     newScale += new Vector3(scaleSpeed * Time.deltaTime, scaleSpeed * Time.deltaTime, scaleSpeed * Time.deltaTime);
+                    newScale.x = Mathf.Min(newScale.x, 1);
+                    newScale.y = Mathf.Min(newScale.y, 1);
+                    newScale.z = Mathf.Min(newScale.z, 1);
                     this.transform.localScale = newScale;
                 }else {
                     this.transform.localScale = new Vector3(1, 1, 1);
