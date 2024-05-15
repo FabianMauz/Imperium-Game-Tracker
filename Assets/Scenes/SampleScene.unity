@@ -6640,7 +6640,7 @@ MonoBehaviour:
   - {fileID: 2594866895887592128, guid: 6f7a8b39e14588b49a1227f368f280c8, type: 3}
   - {fileID: 1399182647002199728, guid: fb1db53bbb3935b4085e61645a86c74b, type: 3}
   starImage: {fileID: 1272443134}
-  matchIdentificator: SK-WI
+  matchIdentificator: KA-WI
 --- !u!222 &370413497
 CanvasRenderer:
   m_ObjectHideFlags: 0
