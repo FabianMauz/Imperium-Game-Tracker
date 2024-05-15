@@ -18,9 +18,11 @@ namespace GameStats {
         }
 
         public void openMenu() {
-            StatController.instance.toggleState(State.SELECT_DIFFICULTY);
-            StatController.instance.setCurrentMatchIdentificator(matchIdentificator);
-            choiceMenu.UpdateUI();
+            if (StatController.instance.state == State.OVERVIEW) {
+                StatController.instance.toggleState(State.SELECT_DIFFICULTY);
+                StatController.instance.setCurrentMatchIdentificator(matchIdentificator);
+                choiceMenu.UpdateUI();
+            }
         }
     }
 }
