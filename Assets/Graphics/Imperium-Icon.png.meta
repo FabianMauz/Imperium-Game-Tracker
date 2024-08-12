@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Imperium-Icon_0: 2117876679261447039
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
