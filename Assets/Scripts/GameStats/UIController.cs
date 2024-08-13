@@ -14,6 +14,12 @@ namespace GameStats
         [SerializeField]
         private GameObject player_empires_legends;
 
+        [SerializeField]
+        private GameObject results_classic_classic;
+
+        [SerializeField]
+        private GameObject results_legends_classic;
+
         private UI_STATE playerState;
         private UI_STATE automaState;
 
@@ -47,6 +53,13 @@ namespace GameStats
         {
             player_empires_classic.SetActive(playerState == UI_STATE.CLASSIC);
             player_empires_legends.SetActive(playerState == UI_STATE.LEGENDS);
+
+            results_classic_classic.SetActive(
+                playerState == UI_STATE.CLASSIC && automaState == UI_STATE.CLASSIC
+            );
+            results_legends_classic.SetActive(
+                playerState == UI_STATE.LEGENDS && automaState == UI_STATE.CLASSIC
+            );
 
             if (playerState == UI_STATE.CLASSIC)
             {
