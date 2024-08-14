@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      90x90-grey-panel-no-corner_0: 4288244497541529667
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

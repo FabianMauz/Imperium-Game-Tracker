@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Star-Silver-leer_0: -6621745204810904796
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

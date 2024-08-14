@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      500x500-marmor-blurred_0: -5008825921878744459
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

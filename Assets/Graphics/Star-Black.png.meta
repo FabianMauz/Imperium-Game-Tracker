@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Star-Black_0: -3768411281049823803
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
