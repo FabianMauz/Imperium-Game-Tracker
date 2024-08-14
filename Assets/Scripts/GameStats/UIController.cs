@@ -15,6 +15,12 @@ namespace GameStats
         private GameObject player_empires_legends;
 
         [SerializeField]
+        private GameObject automa_empires_classic;
+
+        [SerializeField]
+        private GameObject automa_empires_legends;
+
+        [SerializeField]
         private GameObject results_classic_classic;
 
         [SerializeField]
@@ -48,11 +54,25 @@ namespace GameStats
             }
             UpdateUI();
         }
+         public void clickAutomaButton()
+        {
+            if (automaState == UI_STATE.CLASSIC)
+            {
+                automaState = UI_STATE.LEGENDS;
+            }
+            else
+            {
+                automaState = UI_STATE.CLASSIC;
+            }
+            UpdateUI();
+        }
 
         public void UpdateUI()
         {
             player_empires_classic.SetActive(playerState == UI_STATE.CLASSIC);
             player_empires_legends.SetActive(playerState == UI_STATE.LEGENDS);
+            automa_empires_classic.SetActive(automaState == UI_STATE.CLASSIC);
+            automa_empires_legends.SetActive(automaState == UI_STATE.LEGENDS);
 
             results_classic_classic.SetActive(
                 playerState == UI_STATE.CLASSIC && automaState == UI_STATE.CLASSIC
