@@ -26,6 +26,12 @@ namespace GameStats
         [SerializeField]
         private GameObject results_legends_classic;
 
+        [SerializeField]
+        private GameObject results_classic_legends;
+
+        [SerializeField]
+        private GameObject results_legends_legends;
+
         private UI_STATE playerState;
         private UI_STATE automaState;
 
@@ -54,7 +60,8 @@ namespace GameStats
             }
             UpdateUI();
         }
-         public void clickAutomaButton()
+
+        public void clickAutomaButton()
         {
             if (automaState == UI_STATE.CLASSIC)
             {
@@ -77,8 +84,14 @@ namespace GameStats
             results_classic_classic.SetActive(
                 playerState == UI_STATE.CLASSIC && automaState == UI_STATE.CLASSIC
             );
+            results_classic_legends.SetActive(
+                playerState == UI_STATE.CLASSIC && automaState == UI_STATE.LEGENDS
+            );
             results_legends_classic.SetActive(
                 playerState == UI_STATE.LEGENDS && automaState == UI_STATE.CLASSIC
+            );
+            results_legends_legends.SetActive(
+                playerState == UI_STATE.LEGENDS && automaState == UI_STATE.LEGENDS
             );
 
             if (playerState == UI_STATE.CLASSIC)
@@ -88,6 +101,14 @@ namespace GameStats
             else
             {
                 playerButtonText.text = "Legends";
+            }
+            if (automaState == UI_STATE.CLASSIC)
+            {
+                automaButtonText.text = "Classic";
+            }
+            else
+            {
+                automaButtonText.text = "Legends";
             }
         }
     }
