@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8319370921877930041}
   m_Layer: 5
-  m_Name: Empire-7 -  Wikinger
+  m_Name: Empire-15 - Quin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,7 +51,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7868419692048927073}
   m_Layer: 5
-  m_Name: Empire-8 -  Perser
+  m_Name: Empire-16 - Utopisten
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.4245283, b: 0.008567886, a: 1}
+  m_Color: {r: 0.99215686, g: 0.92156863, b: 0.14509805, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 9014279469346860492, guid: 1e09264d67a7818499d9563f5899808a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 92fd2365db550a64ab3d8cb167f9f5cc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -350,7 +350,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4311592439155323579, guid: 226af98067214b742b41eb96d34614b3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9118fa7e06e3445429dd5ca3165e2b59, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -469,7 +469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8867924, g: 0.42418358, b: 0, a: 1}
+  m_Color: {r: 0.9372549, g: 0.50980395, b: 0.6745098, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -551,8 +551,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4288244497541529667, guid: 874f7eca3bb542745a769aaf05946857, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 874f7eca3bb542745a769aaf05946857, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -626,8 +626,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4288244497541529667, guid: 874f7eca3bb542745a769aaf05946857, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 874f7eca3bb542745a769aaf05946857, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -701,7 +701,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Karthager
+  m_text: Minoer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
   m_sharedMaterial: {fileID: -1152781661710942801, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
@@ -780,7 +780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8743679157812489362}
   m_Layer: 5
-  m_Name: Empire-4 -  Griechen
+  m_Name: Empire-12 - Maurya
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -821,7 +821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6143626802720708397}
   m_Layer: 5
-  m_Name: Empire-6 -  Skythen
+  m_Name: Empire-14 - Olmeken
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -992,7 +992,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "R\xF6mer"
+  m_text: Atlanter
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
   m_sharedMaterial: {fileID: -1152781661710942801, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
@@ -1201,8 +1201,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4288244497541529667, guid: 874f7eca3bb542745a769aaf05946857, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 874f7eca3bb542745a769aaf05946857, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1352,8 +1352,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4085853258984880944, guid: bd1c9ff0c2f43e044a618a1996767005, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c8178bf0e056043419f41932cbf01319, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1436,7 +1436,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3073709500855931375}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1521,7 +1521,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kelten
+  m_text: "\xC4gypter"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
   m_sharedMaterial: {fileID: -1152781661710942801, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
@@ -1600,7 +1600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7275554811544205797}
   m_Layer: 5
-  m_Name: Empire-2 - Makedonier
+  m_Name: Empire-10 - Avalonier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1764,7 +1764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9372549, g: 0.9372549, b: 0.9372549, a: 1}
+  m_Color: {r: 0.6156863, g: 0.38039216, b: 0.1764706, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1847,7 +1847,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8876930562514794453, guid: 27a4085fecad7b746b4fd68c1818fad1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 510b670b30140bb4ca8ae57137ef14af, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1966,7 +1966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7075472, g: 0, b: 0.046524014, a: 1}
+  m_Color: {r: 0.39215687, g: 0.7764706, b: 0.9529412, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2041,7 +2041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.4245283, b: 0.008567886, a: 1}
+  m_Color: {r: 0.99215686, g: 0.92156863, b: 0.14509805, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2124,8 +2124,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7615469142324193900, guid: d6448dddf1d5a304a985ef520e03a245, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: eb0eb819a4f55aa4eae5cfe0dab7f240, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2195,7 +2195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2383935194537552585}
   m_Layer: 5
-  m_Name: "Empire-3 - R\xF6mer"
+  m_Name: Empire-11 - Atlanter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2291,7 +2291,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Perser
+  m_text: Utopisten
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
   m_sharedMaterial: {fileID: -1152781661710942801, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
@@ -2418,7 +2418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7058824, g: 0, b: 0.047058824, a: 1}
+  m_Color: {r: 0.39215687, g: 0.7764706, b: 0.9529412, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2493,7 +2493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6037736, g: 0, b: 0.2979604, a: 1}
+  m_Color: {r: 0, g: 0.6431373, b: 0.6313726, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2643,7 +2643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6039216, g: 0, b: 0.29803923, a: 1}
+  m_Color: {r: 0, g: 0.6431373, b: 0.6313726, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2718,7 +2718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3254902, g: 0.4, b: 0.30980393, a: 1}
+  m_Color: {r: 0.5568628, g: 0.5568628, b: 0.5568628, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2868,7 +2868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.011764706, g: 0, b: 0.50980395, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2895,7 +2895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 983885017577262386}
   m_Layer: 5
-  m_Name: Empire-5 -  Karthager
+  m_Name: Empire-13 - Minoer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3059,7 +3059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.008278856, g: 0, b: 0.509434, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3141,8 +3141,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4288244497541529667, guid: 874f7eca3bb542745a769aaf05946857, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 874f7eca3bb542745a769aaf05946857, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3216,8 +3216,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4288244497541529667, guid: 874f7eca3bb542745a769aaf05946857, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 874f7eca3bb542745a769aaf05946857, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3291,8 +3291,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4288244497541529667, guid: 874f7eca3bb542745a769aaf05946857, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 874f7eca3bb542745a769aaf05946857, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3366,8 +3366,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4288244497541529667, guid: 874f7eca3bb542745a769aaf05946857, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 874f7eca3bb542745a769aaf05946857, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3442,7 +3442,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5677398654331476191, guid: d009164f6201d854793cdce2a1781c7c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c7875887f9f1f484399d870d181d744c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3568,7 +3568,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Makedonier
+  m_text: Avalonier
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
   m_sharedMaterial: {fileID: -1152781661710942801, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
@@ -3695,7 +3695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
+  m_Color: {r: 0.6156863, g: 0.38039216, b: 0.1764706, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3778,7 +3778,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 767866689704014587, guid: 84eb8b56ef068ce49a7e1b40213da6b9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 040d0e3a46d25064e9026a819f6a8a83, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3897,7 +3897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.12941177, g: 0.06666667, b: 0.24313726, a: 1}
+  m_Color: {r: 0.5529412, g: 0.7490196, b: 0.13333334, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3924,7 +3924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7673272902628751852}
   m_Layer: 5
-  m_Name: Empire-1 - Kelten
+  m_Name: "Empire-9 - \xC4gypter"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4020,8 +4020,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4288244497541529667, guid: 874f7eca3bb542745a769aaf05946857, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 874f7eca3bb542745a769aaf05946857, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4095,7 +4095,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Griechen
+  m_text: Maurya
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
   m_sharedMaterial: {fileID: -1152781661710942801, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
@@ -4222,7 +4222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8901961, g: 0.42745098, b: 0, a: 1}
+  m_Color: {r: 0.9372549, g: 0.50980395, b: 0.6745098, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4297,7 +4297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.12941177, g: 0.06666667, b: 0.24313726, a: 1}
+  m_Color: {r: 0.5529412, g: 0.7490196, b: 0.13333334, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4379,7 +4379,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Wikinger
+  m_text: Quin
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
   m_sharedMaterial: {fileID: -1152781661710942801, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
@@ -4514,7 +4514,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -9087561114493844753, guid: a1756d63c583e5e45aad0295a91d066d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3726704ce76408d48adf5f3b2fb544eb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4715,7 +4715,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Skythen
+  m_text: Olmeken
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
   m_sharedMaterial: {fileID: -1152781661710942801, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
@@ -4842,7 +4842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.32424602, g: 0.3962264, b: 0.30838376, a: 1}
+  m_Color: {r: 0.5568628, g: 0.5568628, b: 0.5568628, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
