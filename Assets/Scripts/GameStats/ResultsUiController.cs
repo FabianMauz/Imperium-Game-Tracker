@@ -6,7 +6,7 @@ using UnityEngine.Playables;
 
 namespace GameStats
 {
-    public class UIController : MonoBehaviour
+    public class ResultsUiController : MonoBehaviour
     {
         [SerializeField]
         private GameObject player_empires_classic;
