@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -23,6 +20,19 @@ public class Appear : MonoBehaviour
 
     [SerializeField]
     private float decreaseSpeed = 10;
+
+    public void startAppearing()
+    {
+        this.gameObject.SetActive(true);
+        this.increaseAlpha = true;
+        this.decreaseAlpha = false;
+    }
+
+    public void startDisappearing()
+    {
+        this.increaseAlpha = false;
+        this.decreaseAlpha = true;
+    }
 
     void Start()
     {
@@ -58,6 +68,10 @@ public class Appear : MonoBehaviour
             {
                 text.alpha -= decreaseSpeed * Time.deltaTime;
             }
+            if (text.alpha <= 0)
+            {
+                this.gameObject.SetActive(false);
+            }
         }
     }
 
@@ -86,6 +100,10 @@ public class Appear : MonoBehaviour
             Color c = image.color;
             c.a -= decreaseSpeed * Time.deltaTime;
             image.color = c;
+            if (c.a <= 0)
+            {
+                this.gameObject.SetActive(false);
+            }
         }
     }
 }
