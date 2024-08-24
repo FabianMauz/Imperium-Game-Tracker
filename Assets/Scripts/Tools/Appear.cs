@@ -21,6 +21,13 @@ public class Appear : MonoBehaviour
     [SerializeField]
     private float decreaseSpeed = 10;
 
+
+    public void cancelAllApprearing()
+    {
+        increaseAlpha = false;
+        decreaseAlpha = false;
+    }
+    
     public void startAppearing()
     {
         this.gameObject.SetActive(true);
@@ -40,9 +47,13 @@ public class Appear : MonoBehaviour
         images = GetComponentsInChildren<Image>();
     }
 
-    // Update is called once per frame
     void Update()
     {
+        if (!increaseAlpha && !decreaseAlpha)
+        {
+            return;
+        }
+
         foreach (TextMeshProUGUI text in texts)
         {
             handleText(text);
@@ -60,6 +71,11 @@ public class Appear : MonoBehaviour
             if (text.alpha < 1)
             {
                 text.alpha += increaseSpeed * Time.deltaTime;
+                if (text.alpha >= 1)
+                {
+                    increaseAlpha = false;
+                }
+
             }
         }
         if (decreaseAlpha)
@@ -87,11 +103,13 @@ public class Appear : MonoBehaviour
             if (c.a < 1)
             {
                 c.a += increaseSpeed * Time.deltaTime;
-                if (c.a > 1)
+
+                if (c.a >= 1)
                 {
                     c.a = 1;
+                    increaseAlpha = false;
                 }
-                //c.a=Math.Clamp(c.a,c.a,1);
+
                 image.color = c;
             }
         }
