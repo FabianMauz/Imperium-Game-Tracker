@@ -9,6 +9,9 @@ namespace GameStats
     public class ResultsUiController : MonoBehaviour
     {
         [SerializeField]
+        private GameObject resultOverview;
+
+        [SerializeField]
         private GameObject player_empires_classic;
 
         [SerializeField]
@@ -41,14 +44,29 @@ namespace GameStats
         [SerializeField]
         private TextMeshProUGUI automaButtonText;
 
+        private Dictionary<UI_STATE, GameObject> playerEmpireMap =
+            new Dictionary<UI_STATE, GameObject>();
+
         void Start()
         {
             playerState = UI_STATE.CLASSIC;
             automaState = UI_STATE.CLASSIC;
+            playerEmpireMap.Add(UI_STATE.CLASSIC, player_empires_classic);
+            playerEmpireMap.Add(UI_STATE.LEGENDS, player_empires_legends);
             UpdateUI();
         }
 
         public void clickPlayerButton()
+        {
+            resultOverview.GetComponent<Appear>().cancelAllApprearing();
+            playerEmpireMap[playerState].GetComponent<Appear>().startDisappearing();
+            selectNextPlayerEmpireGroup();
+            playerEmpireMap[playerState].SetActive(true);
+            playerEmpireMap[playerState].GetComponent<Appear>().startAppearing();
+            UpdateUI();
+        }
+
+        private void selectNextPlayerEmpireGroup()
         {
             if (playerState == UI_STATE.CLASSIC)
             {
@@ -58,7 +76,6 @@ namespace GameStats
             {
                 playerState = UI_STATE.CLASSIC;
             }
-            UpdateUI();
         }
 
         public void clickAutomaButton()
@@ -76,11 +93,15 @@ namespace GameStats
 
         public void UpdateUI()
         {
-            player_empires_classic.SetActive(playerState == UI_STATE.CLASSIC);
-            player_empires_legends.SetActive(playerState == UI_STATE.LEGENDS);
             automa_empires_classic.SetActive(automaState == UI_STATE.CLASSIC);
             automa_empires_legends.SetActive(automaState == UI_STATE.LEGENDS);
 
+            updateGameResults();
+            updateButtonTexts();
+        }
+
+        private void updateGameResults()
+        {
             results_classic_classic.SetActive(
                 playerState == UI_STATE.CLASSIC && automaState == UI_STATE.CLASSIC
             );
@@ -93,7 +114,10 @@ namespace GameStats
             results_legends_legends.SetActive(
                 playerState == UI_STATE.LEGENDS && automaState == UI_STATE.LEGENDS
             );
+        }
 
+        private void updateButtonTexts()
+        {
             if (playerState == UI_STATE.CLASSIC)
             {
                 playerButtonText.text = "Classic";
