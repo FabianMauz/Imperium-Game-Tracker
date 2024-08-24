@@ -6,6 +6,9 @@ namespace GameStats
     public class MatchResultIcon : MonoBehaviour
     {
         [SerializeField]
+        private Empire empire;
+
+        [SerializeField]
         private DifficultyChoiceMenu choiceMenu;
 
         [SerializeField]
