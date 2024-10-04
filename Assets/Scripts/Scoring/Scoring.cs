@@ -24,6 +24,10 @@ public class Scoring : MonoBehaviour
         updateUI();
     }
 
+    public void changePoints(){
+         updateUI();
+    }
+
     private void updateUI(){
 print("new difficulty: "+difficulty);
     }
