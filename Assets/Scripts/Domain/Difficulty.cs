@@ -1,8 +1,6 @@
-using System;
-
 namespace Domain
 {
-    [Serializable]
+
     public enum Difficulty
     {
         CHIEFTAIN,

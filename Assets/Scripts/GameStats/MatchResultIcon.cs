@@ -1,3 +1,4 @@
+using Domain;
 using UnityEngine;
 using UnityEngine.UI;
 

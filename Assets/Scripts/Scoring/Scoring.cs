@@ -5,17 +5,22 @@ using UnityEngine;
 
 public class Scoring : MonoBehaviour
 {
-    private string pointsFromPlayer = "0";
-    private string pointsFromAutoma = "0";
+    private int pointsOfPlayer;
+    private int pointsOfAutoma;
 
     private Difficulty difficulty;
 
     [SerializeField]
-    private TextMeshProUGUI inputPlayer;
+    private TextMeshProUGUI playerPoints;
+    [SerializeField]
+    private TextMeshProUGUI automaPoints;
+
+
+
 
     public void saveGameResult()
     {
-        print("save game:" + inputPlayer.text);
+       
     }
 
     public void setDifficulty(string difficulty)
