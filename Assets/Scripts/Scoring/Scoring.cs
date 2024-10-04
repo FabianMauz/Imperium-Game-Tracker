@@ -12,16 +12,16 @@ public class Scoring : MonoBehaviour
 
     [SerializeField]
     private TextMeshProUGUI playerPoints;
+
     [SerializeField]
     private TextMeshProUGUI automaPoints;
 
-
-
-
-    public void saveGameResult()
+    public void initPanel(string matchIdentificator)
     {
-       
+        print("Match " + matchIdentificator);
     }
+
+    public void saveGameResult() { }
 
     public void setDifficulty(string difficulty)
     {
@@ -29,11 +29,13 @@ public class Scoring : MonoBehaviour
         updateUI();
     }
 
-    public void changePoints(){
-         updateUI();
+    public void changePoints()
+    {
+        updateUI();
     }
 
-    private void updateUI(){
-print("new difficulty: "+difficulty);
+    private void updateUI()
+    {
+        print("new difficulty: " + difficulty);
     }
 }
