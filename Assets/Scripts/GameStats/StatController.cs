@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using GameStats.Persistance;
+using Persistance;
 using UnityEngine;
 
 namespace GameStats
