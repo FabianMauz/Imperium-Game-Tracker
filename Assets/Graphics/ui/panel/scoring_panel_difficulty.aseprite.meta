@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f39a09714ed5a7c418f2ce32048b8743
+guid: 88aa4ab61ebf9af4db5a6f871b42e4b6
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: scoring-panel
+  - name: scoring_panel_difficulty
     originalName: 
-    pivot: {x: 0.5, y: -0.037567087}
+    pivot: {x: 0, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1200
-      height: 559
-    spriteID: 7733e716471bde74ea286d9e807c5d4a
+      width: 350
+      height: 80
+    spriteID: dbb382993c8fc8f4b9f0b67ec5ee7f21
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,25 +144,25 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1954277236
-    name: scoring-panel
+    guid: -876670934
+    name: scoring_panel_difficulty
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: scoring-panel
+    - name: scoring_panel_difficulty
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 100
-        y: 21
-        width: 1200
-        height: 559
-      spriteId: 7733e716471bde74ea286d9e807c5d4a
+        x: 0
+        y: 0
+        width: 350
+        height: 80
+      spriteId: dbb382993c8fc8f4b9f0b67ec5ee7f21
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 1400, y: 600}
+  canvasSize: {x: 350, y: 80}
