@@ -123,15 +123,15 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: scoring-panel
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.4950495, y: -0.08317214}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 800
-      height: 500
+      width: 1212
+      height: 517
     spriteID: 7733e716471bde74ea286d9e807c5d4a
     spriteBone: []
     spriteOutline: []
@@ -154,10 +154,10 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 800
-        height: 500
+        x: 100
+        y: 43
+        width: 1212
+        height: 517
       spriteId: 7733e716471bde74ea286d9e807c5d4a
     linkedCells: []
     parentIndex: -1
@@ -165,4 +165,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 800, y: 500}
+  canvasSize: {x: 1400, y: 600}

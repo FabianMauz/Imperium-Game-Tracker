@@ -40588,6 +40588,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 742928573}
   m_CullTransparentMesh: 1
+--- !u!1 &743631213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 743631214}
+  - component: {fileID: 743631215}
+  m_Layer: 0
+  m_Name: ScoringController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &743631214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743631213}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 855039030}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &743631215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743631213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4b522886f07b5a4f91cbf84c12446d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scorePanelInOVerview: {fileID: 1335062505}
 --- !u!1 &743702550
 GameObject:
   m_ObjectHideFlags: 0
@@ -45934,6 +45979,7 @@ Transform:
   - {fileID: 1448940271}
   - {fileID: 1680593894}
   - {fileID: 696397377}
+  - {fileID: 743631214}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &856818023
@@ -72763,7 +72809,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1335062504
 RectTransform:
   m_ObjectHideFlags: 0
@@ -72800,7 +72846,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eafbfeed7ca8ae4891657c0a05ba2b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputPlayer: {fileID: 1300496319}
+  playerPoints: {fileID: 0}
+  automaPoints: {fileID: 0}
 --- !u!1 &1336638151
 GameObject:
   m_ObjectHideFlags: 0

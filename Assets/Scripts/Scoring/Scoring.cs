@@ -16,9 +16,15 @@ public class Scoring : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI automaPoints;
 
+    private Empire empireOfPlayer;
+    private Empire empireOfAutoma;
+
     public void initPanel(string matchIdentificator)
     {
-        print("Match " + matchIdentificator);
+        empireOfPlayer = EmpireUtils.getEmpireFromString(matchIdentificator.Split("-")[0]);
+        empireOfAutoma = EmpireUtils.getEmpireFromString(matchIdentificator.Split("-")[1]);
+
+        
     }
 
     public void saveGameResult() { }
