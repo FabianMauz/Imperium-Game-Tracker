@@ -26,12 +26,17 @@ public class Scoring : MonoBehaviour
     [SerializeField]
     private Image[] imageOfEmpireIcons;
 
+    [SerializeField]
+    private TextMeshProUGUI[] empireNames;
+
     public void initPanel(string matchIdentificator)
     {
         empireOfPlayer = EmpireUtils.getEmpireFromString(matchIdentificator.Split("-")[0]);
         empireOfAutoma = EmpireUtils.getEmpireFromString(matchIdentificator.Split("-")[1]);
         imageOfEmpireIcons[0].sprite = getSpriteOfEmpire(empireOfPlayer);
         imageOfEmpireIcons[1].sprite = getSpriteOfEmpire(empireOfAutoma);
+        empireNames[0].text=Localisation.getEmpireName(empireOfPlayer,Language.GERMAN);
+         empireNames[1].text=Localisation.getEmpireName(empireOfAutoma,Language.GERMAN);
     }
 
     public void saveGameResult() { }
