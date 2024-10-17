@@ -26,7 +26,7 @@ public class EmpireUtils
         };
     }
 
-    public string getStringOfEmpire(Empire empire)
+    public static string getStringOfEmpire(Empire empire)
     {
         return empire switch
         {

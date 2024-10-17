@@ -30,12 +30,7 @@ namespace GameStats
 
         public void openMenu()
         {
-            // if (StatController.instance.state == State.OVERVIEW)
-            // {
-            //     StatController.instance.toggleState(State.SELECT_DIFFICULTY);
-            //     StatController.instance.setCurrentMatchIdentificator(matchIdentificator);
-            //     choiceMenu.UpdateUI();
-            // }
+           
             ScoringController.instance.getScorePanelInOVerview().gameObject.SetActive(true);
             ScoringController.instance.getScorePanelInOVerview().initPanel(matchIdentificator);
         }

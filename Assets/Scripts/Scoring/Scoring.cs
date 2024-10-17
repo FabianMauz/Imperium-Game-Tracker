@@ -1,5 +1,6 @@
 using System;
 using Domain;
+using GameStats;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -48,7 +49,11 @@ public class Scoring : MonoBehaviour
         this.gameObject.SetActive(false);
     }
 
-    public void saveGameResult() { }
+    public void saveGameResult()
+    {
+        ScoringController.instance.saveMatch(difficulty, empireOfPlayer, empireOfAutoma);
+         FindAnyObjectByType<ResultsUiController>(). UpdateUI();
+    }
 
     public void setDifficulty(string difficulty)
     {
