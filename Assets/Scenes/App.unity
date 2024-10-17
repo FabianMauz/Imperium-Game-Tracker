@@ -27825,6 +27825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 514901093}
   - component: {fileID: 514901094}
+  - component: {fileID: 514901095}
   m_Layer: 5
   m_Name: diff-1
   m_TagString: Untagged
@@ -27869,6 +27870,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shadow: {fileID: 1016416537}
   difficulty: 0
+--- !u!114 &514901095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514901092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1335062505}
+          m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
+          m_MethodName: setDifficulty
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: CHIEFTAIN
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &515971187
 GameObject:
   m_ObjectHideFlags: 0
@@ -35571,7 +35601,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kriegsherr
+  m_text: "Stammesh\xE4upling"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
   m_sharedMaterial: {fileID: -1152781661710942801, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
@@ -35598,7 +35628,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
+  m_fontSize: 28.85
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -36280,6 +36310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 672674706}
   - component: {fileID: 672674707}
+  - component: {fileID: 672674708}
   m_Layer: 5
   m_Name: diff-4
   m_TagString: Untagged
@@ -36324,6 +36355,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shadow: {fileID: 1025882780}
   difficulty: 3
+--- !u!114 &672674708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672674705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1335062505}
+          m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
+          m_MethodName: setDifficulty
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: SOVEREIGN
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &674770249
 GameObject:
   m_ObjectHideFlags: 0
@@ -54886,7 +54946,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1017832774
 RectTransform:
   m_ObjectHideFlags: 0
@@ -61446,7 +61506,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Stammesh\xE4upling"
+  m_text: "Dorf\xE4ltester"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
   m_sharedMaterial: {fileID: -1152781661710942801, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
@@ -61473,7 +61533,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28.85
+  m_fontSize: 30
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -96720,7 +96780,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: xxx
+  m_text: Kriegsherr
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
   m_sharedMaterial: {fileID: -1152781661710942801, guid: 411ea4189075c3d409bd1437002a4664, type: 2}
@@ -97357,6 +97417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1779972864}
   - component: {fileID: 1779972865}
+  - component: {fileID: 1779972866}
   m_Layer: 5
   m_Name: diff-5
   m_TagString: Untagged
@@ -97401,6 +97462,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shadow: {fileID: 529609262}
   difficulty: 4
+--- !u!114 &1779972866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779972863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1335062505}
+          m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
+          m_MethodName: setDifficulty
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: OVERLORD
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1780560890
 GameObject:
   m_ObjectHideFlags: 0
@@ -101684,6 +101774,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1840905674}
   - component: {fileID: 1840905675}
+  - component: {fileID: 1840905676}
   m_Layer: 5
   m_Name: diff-3
   m_TagString: Untagged
@@ -101728,6 +101819,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shadow: {fileID: 378661663}
   difficulty: 2
+--- !u!114 &1840905676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840905673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1335062505}
+          m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
+          m_MethodName: setDifficulty
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: IMPERATOR
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1845492615
 GameObject:
   m_ObjectHideFlags: 0
@@ -106491,6 +106611,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1945309719}
   - component: {fileID: 1945309720}
+  - component: {fileID: 1945309721}
   m_Layer: 5
   m_Name: diff-2
   m_TagString: Untagged
@@ -106535,6 +106656,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shadow: {fileID: 437926025}
   difficulty: 1
+--- !u!114 &1945309721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945309718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1335062505}
+          m_TargetAssemblyTypeName: Scoring, Assembly-CSharp
+          m_MethodName: setDifficulty
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: WARLORD
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1945790426
 GameObject:
   m_ObjectHideFlags: 0
