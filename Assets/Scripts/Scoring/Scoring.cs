@@ -9,7 +9,7 @@ public class Scoring : MonoBehaviour
     private int pointsOfPlayer;
     private int pointsOfAutoma;
 
-    private Difficulty difficulty;
+    private Difficulty difficulty = Difficulty.OVERLORD;
 
     [SerializeField]
     private TextMeshProUGUI playerPoints;
@@ -29,14 +29,23 @@ public class Scoring : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI[] empireNames;
 
+    [SerializeField]
+    private DifficultyButton[] difficultyButtons;
+
     public void initPanel(string matchIdentificator)
     {
         empireOfPlayer = EmpireUtils.getEmpireFromString(matchIdentificator.Split("-")[0]);
         empireOfAutoma = EmpireUtils.getEmpireFromString(matchIdentificator.Split("-")[1]);
         imageOfEmpireIcons[0].sprite = getSpriteOfEmpire(empireOfPlayer);
         imageOfEmpireIcons[1].sprite = getSpriteOfEmpire(empireOfAutoma);
-        empireNames[0].text=Localisation.getEmpireName(empireOfPlayer,Language.GERMAN);
-         empireNames[1].text=Localisation.getEmpireName(empireOfAutoma,Language.GERMAN);
+        empireNames[0].text = Localisation.getEmpireName(empireOfPlayer, Language.GERMAN);
+        empireNames[1].text = Localisation.getEmpireName(empireOfAutoma, Language.GERMAN);
+        updateUI();
+    }
+
+    public void closePanel()
+    {
+        this.gameObject.SetActive(false);
     }
 
     public void saveGameResult() { }
@@ -52,13 +61,14 @@ public class Scoring : MonoBehaviour
         updateUI();
     }
 
-    public void backToOverview(){
-        this.gameObject.SetActive(false);
-    }
+    public void setDifficulty(int diffuícultyId) { }
 
     private void updateUI()
     {
-        print("new difficulty: " + difficulty);
+        foreach (DifficultyButton button in difficultyButtons)
+        {
+            button.updateUI(difficulty);
+        }
     }
 
     private Sprite getSpriteOfEmpire(Empire empire)
